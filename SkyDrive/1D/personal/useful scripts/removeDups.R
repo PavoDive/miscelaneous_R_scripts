@@ -1,6 +1,7 @@
 findDups <- function(folder, remove.files=FALSE) {
      # This script is used to find and optionally remove duplicated files in a folder.
      # Please be AWARE THAT DELETIONS AREN'T UNDOABLE!! If they're gone, they're gone for good!
+     # Taken and modified from http://www.r-bloggers.com/find-duplicate-files-using-r/
      
      # load required libraries
      library(digest)
